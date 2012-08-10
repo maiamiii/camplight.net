@@ -1,9 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
 /**
  * Camplight
  */
-
-
-
 
 /*----------------------------------------------------------------------------*/
 
@@ -487,6 +487,10 @@ input[type=image] {vertical-align: middle}
         text-shadow: 1px 1px 0 #ffffff;
 
     }
+	#team .membername:hover{
+		width:130px;
+		box-shadow: 8px 8px 5px #888888;
+	}
     a.membername:visited {
         text-decoration: none;
         text-decoration-color: #ffffff;
@@ -676,3 +680,4 @@ input[type=image] {vertical-align: middle}
  * @region Fixes
  */
 /** @endregion */
+
