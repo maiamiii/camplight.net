@@ -3,11 +3,16 @@
 <head>
 	<title>CampLight Ltd.</title>
 	<meta charset="utf-8" />
-	<link rel="author" href="humans.txt" />
+	<script src="js/ga.js"></script>
+    
+<link rel="author" href="humans.txt" />
 	<link rel="stylesheet" href="css/camplight.css" />
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" />
 	<link rel="shortcut icon" href="favicon.ico" />
-	<script src="js/ga.js"></script>
+		<link rel="stylesheet" href="css/reset.css"  type="text/css" media="all" />
+		<style type="text/css" media="screen, projection">
+					@import url(css/jq_fade.css);
+		</style>
 </head>
 <body>
 
@@ -18,87 +23,43 @@
 
 			<h1 id="logo">
 				CampLight
+           
 			</h1>
 
 		</div>
 	</div>
 	<!-- << Header -->
+    
+    <div id="home_slider">
 
-
-	<!-- >> Skills -->
-	<div id="skills">
-		<div class="wrap">
-
-			<ul>
-				<li class="area">
-					<h2>Frontend</h2>
-					<ul>
-						<li>HTML 5</li>
-						<li>CSS 3</li>
-						<li>Javascript</li>
-						<li>Flash/Flex</li>
-					</ul>
-				</li>
-				<li class="area">
-					<h2>Backend</h2>
-					<ul>
-						<li>Node.js</li>
-						<li>Ruby</li>
-						<li>Python</li>
-						<li>Java</li>
-						<li>PHP</li>
-					</ul>
-				</li>
-				<li class="area">
-					<h2>Database</h2>
-					<ul>
-						<li>SQL</li>
-						<li>MongoDB</li>
-						<li>CouchDB</li>
-						<li>Redis</li>
-						<li>Neo4j</li>
-					</ul>
-				</li>
-				<li class="area">
-					<h2>Mobile</h2>
-					<ul>
-						<li>iOS/Objective C</li>
-						<li>Android</li>
-						<li>AS3/Flash/Air</li>
-						<li>J2ME</li>
-					</ul>
-				</li>
-				<li class="area">
-					<h2>Desktop</h2>
-					<ul>
-						<li>Java</li>
-						<li>C#</li>
-						<li>C++</li>
-						<li>AS3/Air</li>
-					</ul>
-				</li>
-				<li class="area">
-					<h2>Design</h2>
-					<ul>
-						<li>Web</li>
-						<li>Identity</li>
-						<li>Print</li>
-						<li>Illustration</li>
-					</ul>
-				</li>
-				<li class="area">
-					<h2>Linux</h2>
-					<ul>
-						<li>System Administration</li>
-						<li>Optimization</li>
-					</ul>
-				</li>
-			</ul>
-
-		</div>
-	</div>
-	<!-- << skills -->
-
+	<ul id="portfolio"> 
+	<li>
+		<a href="#">
+			<img src="images/design_1.gif" alt="Design" />
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<img src="images/design_2.gif" alt="Design2" />
+		</a>
+	</li> 
+	<li>
+		<a href="#">
+			<img src="images/design_4.gif" alt="Design4" />
+		</a>
+	</li> 
+	<li>
+		<a href="#">
+			<img src="images/design_3.gif" alt="Design3" />
+		</a>
+	</li> 
+	<li>
+		<a href="#">
+			<img src="images/design_5.jpg" alt="Design5" />
+		</a>
+	</li> 
+</ul>	
+</div>
 
 	<!-- >> Team -->
 	<div id="team">
@@ -337,9 +298,42 @@
 			<img class="logoTop" src="images/animatedLogo/icon.png"></img>
 			<img class="logoShadow" src="images/animatedLogo/shadow.png"></img>
 			<img class="logoCamplightText" src="images/animatedLogo/camplight.png"></img>
+			
 		</div>
+		
 	</script>
+  
 	<!-- << logo animation -->
+    
+   
+		<script type="text/javascript" src="js/jquery.innerfade.js"></script>
+		<script type="text/javascript">
+	   $(document).ready(
+		function(){
+			$('#news').innerfade({
+				animationtype: 'slide',
+				speed: 750,
+				timeout: 2000,
+				type: 'random',
+				containerheight: '1em'
+			});
+
+			$('#portfolio').innerfade({
+				speed: 'slow',
+				timeout: 4000,
+				type: 'sequence',
+				containerheight: '220px'
+			});
+			
+			$('.fade').innerfade({
+				speed: 'slow',
+				timeout: 1000,
+				type: 'sequence',
+				containerheight: '1.5em'
+			});
+		}
+	);
+</script>
 
 </body>
 </html>

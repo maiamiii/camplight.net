@@ -1,0 +1,42 @@
+a:link {
+	color:#000;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#000;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color:#000;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	
+}
+ul {
+	margin-bottom: 1em;
+	
+	}
+
+
+/* Listen */
+#home_slider{
+	margin:0 auto;
+	
+}
+ul#portfolio li img{
+	margin:0;
+	padding:0;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+ul#portfolio{
+	width:638px;
+	margin-left:auto;
+	margin-right:auto;
+}
