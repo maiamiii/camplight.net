@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #666666;
+	background: transparent;
+	font: 14px/1.5 "Maven Pro", "Segoe UI", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, Lucida, sans-serif;
+}
+header, footer {
+	display: block;
+	}
+
+
+.wrap {
+	margin: 0 auto;
+	width: 960px;
+	min-height: 0;
+	_zoom: 1;
+}
+.wrap:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+#header {
+	height: 12em;
+	border-bottom: 1px solid #dddddd;
+	background:#F5F5F5;
+	width:920px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/** Logo */
+#logo {
+	margin: 0;
+	padding: 130px 0 0 0;
+	background: url("../images/camplight-logo.png") center 6px no-repeat;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+}
+
+
+:root #logo {
+	background:
+		url("../images/camplight-logo.png") center 10px no-repeat,
+		url("../images/camplight-logo-shadow.png") center 117px no-repeat;
+	-ms-animation: header-anim 2s;
+	-moz-animation: header-anim 2s;
+	-webkit-animation: header-anim 2s;
+}
+
+
+@-ms-keyframes header-anim {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes header-anim {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-webkit-keyframes header-anim {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.logo {
+	width: 140px;
+	margin: 0 auto;
+}
+
+.logoTop {
+	margin-left: 23px;
+	display: block;
+	z-index: 3;
+	position: relative;
+	opacity: 0;
+}
+
+.logoShadow {
+	margin-left: 33px;
+	top: 10px;
+	display: block;
+	position: relative;
+	opacity: 0;
+}
+
+.logoCamplightText {
+	top: 10px;
+	position: relative;
+	opacity: 0;
+}
+
+
+/*content*/
+#content{
+	width:920px;
+	margin-left:auto;
+	margin-right:auto;
+	height:250px;
+}
+.content_left{
+	font: 12px/1.5 "Maven Pro", "Segoe UI", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, Lucida, sans-serif;
+	float:left;
+	width:280px;
+	margin-left:15px;
+}
+.content_center{
+	font: 12px/1.5 "Maven Pro", "Segoe UI", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, Lucida, sans-serif;
+	float:left;
+	width:280px;
+	margin-left:20px;
+
+}
+.content_right{
+	font: 12px/1.5 "Maven Pro", "Segoe UI", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, Lucida, sans-serif;
+	float:right;
+	width:280px;
+	
+}
+
+	
+	/** Headings */
+h1,h2,h3 {
+	color: #333333;
+	font-weight: normal;
+}
+h1 {
+	margin-top:45px;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+#important{
+	width:920px;
+	height:320px;
+	margin-left:auto;
+	margin-right:auto;
+	background:url(../images/siv_back.gif) repeat-x;
+}
+li.imp_left{
+	list-style-type:none;
+	width:260px;
+	float:left;		
+}
+li.imp_left img{
+	margin-left:-25px;
+	margin-top:30px;
+}
+li.imp_center{
+	list-style-type:none;
+	width:280px;
+	float:left;
+	margin-left:20px;
+}
+li.imp_center img{
+	margin-top:100px;
+}
+li.imp_right{
+	list-style-type:none;
+	width:290px;
+	float:right;
+}
+li.imp_right img{
+	margin-left:-15px;
+}
+	
+
+ /* @region Bottom
+ */
+#bottom {
+	min-height: 5.5em;
+	_height: 5.5em;
+	padding: 2.5em 0 0 0;
+	color: #ffffff;
+	background: #444444 url("../images/bottom-tile.png");
+	width:920px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+	#bottom h2 {
+		margin: 0 0 .75em 0;
+		color: #cccccc;
+		font-size: 18px;
+		line-height: 21px;
+		text-shadow: 0 0 2px #333333;
+	}
+
+
+	#bottom ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		min-height: 0;
+		_zoom: 1;
+	}
+	#bottom ul:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+	#bottom li {
+		float: left;
+		display: inline;
+	}
+
+
+	#bottom a {
+		color: #ffffff;
+	}
+
+
+
+
+/** Partners */
+#partners {
+	margin: 0 5px;;
+	width: 700px;
+	float: left;
+	display: inline;
+}
+
+
+	#partners ul {
+		margin: 0 -10px;
+	}
+	#partners li {
+		margin: 0 5px;
+		margin-bottom: 10px;
+		width: 145px;
+
+	}
+
+
+	#partners a {
+		line-height: 3.6em;
+		background-position: center center;
+		background-repeat: no-repeat;
+		text-indent: -999em;
+		display: block;
+		overflow: hidden;
+	}
+
+
+	#partners .gamecraft a {
+		background-image: url("../images/partners/gamecraft.png");
+		
+	}
+	#partners .shtrak a {
+		background-image: url("../images/partners/shtrak.png");
+	}
+	#partners .sourcerealms a {
+		background-image: url("../images/partners/sourcerealms.png");
+	}
+	#partners .crystalplay a {
+		background-image: url("../images/partners/crystalplay.png");	
+	}
+
+/** Partners */
+/*about*/
+#about {
+	margin: 0 10px;
+	width: 200px;
+	float: right;
+	display: inline
+}
+
+
+	#about ul {
+		margin: 0 -10px;
+	}
+	#about li {
+		margin: 0 5px;
+		/*width: 140px;*/
+	}
+
+
+	#about .mail a {
+		color: #99ffff;
+	}
+
+
+#footer {
+	padding: .75em 0;
+	color: #999999;
+	background: #000000;
+	font-size: 12px;
+	line-height: 21px;
+	width:920px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+	#footer p {
+		margin: 0;
+	}
+
+
+	#footer .copy {
+		text-align: center;
+	}
+
+
+
+
+
+
