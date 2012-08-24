@@ -142,41 +142,54 @@ h1 {
 	font-size: 20px;
 	line-height: 1.2;
 }
+h2{
+  margin-top:-5px;
+  font-size: 15px;
+  line-height: 1;
+}
 
 #important{
 	width:920px;
-	height:320px;
+	height:410px;
 	margin-left:auto;
 	margin-right:auto;
-	background:url(../images/siv_back.gif) repeat-x;
+	background:url(../images/siv_back.gif) repeat;
 }
-li.imp_left{
-	list-style-type:none;
-	width:260px;
-	float:left;		
+p.imp_left{
+	width:240px;
+	float:left;
+	background:url(../images/strelka.gif) no-repeat;
+	padding-left:35px;
+	margin-top:-5px;
 }
-li.imp_left img{
-	margin-left:-25px;
-	margin-top:30px;
-}
-li.imp_center{
-	list-style-type:none;
-	width:280px;
+
+.imp_center{
+	width:200px;
 	float:left;
 	margin-left:20px;
 }
-li.imp_center img{
+.imp_center img{
 	margin-top:100px;
 }
-li.imp_right{
-	list-style-type:none;
-	width:290px;
+.imp_right{
+	width:340px;
 	float:right;
+	margin-top:-30px;
 }
-li.imp_right img{
-	margin-left:-15px;
+.icon{
+	list-style-type:none;
+	background:url(../images/team-icon.png) no-repeat;
+	padding-left:40px;
+	padding-top:25px;
 }
-	
+.details{
+	margin-top:-10px;
+	margin-right:10px;
+	list-style-type:none;
+}
+p.triangle{
+	padding-right:25px;
+}
 
  /* @region Bottom
  */
